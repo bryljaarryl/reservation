@@ -1,0 +1,394 @@
+.container{
+    margin-bottom: 4vh;
+}
+h1 {
+    text-align: center; /* Center the text horizontally */
+    position: relative; /* Create a positioning context for the line */
+}
+.title{
+    padding-top: 3vh;
+    padding-bottom: 0.5vh;
+}
+h1::after {
+    content: ""; /* Create an empty content for the pseudo-element */
+    display: block; /* Make it a block element */
+    width: 170px; /* Set the width of the line */
+    height: 2px; /* Set the height of the line */
+    background-color: #e6573f; /* Set the line color */
+    margin: 10px auto; /* Center the line horizontally and provide spacing */
+}
+.reviews-link {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.reviews-link:hover {
+    text-decoration: underline;
+}
+.custom-image1 {
+    width: 100%; /* Set the width as desired, e.g., 100% for full width */
+}
+.custom-img {
+    width: 100%; /* Set the width as desired, e.g., 100% for full width */
+}
+.details-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.details {
+    flex-basis: 50%; /* Adjust the width as needed */
+    padding: 20px; /* Add some padding for spacing */
+}
+.pricing-details {
+    flex-basis: 45%; /* Adjust the width as needed */
+    padding: 20px; /* Add some padding for spacing */
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 20px;
+    margin-top: 20px;
+}
+#rateSelection,
+#rateSelection1,
+#rateSelection2{
+    flex-basis: 45%; /* Adjust the width as needed */
+    padding: 10px; /* Add some padding for spacing */
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+.pricing-details h3 {
+    font-size: 15px;
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+.pricing-details p {
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+#calculateBtn,
+#calculateBtn1,
+#calculateBtn2 {
+    background-color: #545454;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#calculateBtn:hover,
+#calculateBtn1:hover,
+#calculateBtn2:hover {
+    background-color: #e6573f;
+}
+
+#result,
+#result1,
+#result2 {
+    font-size: 18px;
+    margin-top: 10px;
+}
+/* Add this to your CSS */
+.total-cost {
+    font-family: 'Trebuchet MS'; /* Specify the desired font family */
+    font-size: 18px; /* Specify the desired font size */
+    font-weight: bold; /* Make the text bold if needed */
+    color: #000000; /* Set the text color */
+    /* Add any other desired styling properties */
+}
+
+#res1{
+    margin-top: 10px;
+}
+/* Add this to your CSS */
+.total-cost1 {
+    font-family: 'Trebuchet MS'; /* Specify the desired font family */
+    font-size: 18px; /* Specify the desired font size */
+    font-weight: bold; /* Make the text bold if needed */
+    color: #000000; /* Set the text color */
+    /* Add any other desired styling properties */
+}
+
+/* Style the input fields */
+#checkInDate,
+#checkOutDate,
+#checkInDate1,
+#checkOutDate1,
+#checkInDate2,
+#checkOutDate2,
+#quantity,
+#beddings,
+#quantity1,
+#beddings1 {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+#ticket,
+#ticket1 {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+#checkInBtnSingle,
+#checkInBtnDouble,
+#checkInBtnTriple {
+    width: 100px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+#checkInDateTime,
+#checkOutDateTime{
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+.detail-item {
+    display: flex;
+    align-items: center;
+    margin-top: 1vh;
+}
+.detail-item img{
+    width:80px;
+}
+.detail-item p{
+    margin-top: 2vh;
+}
+.detail-item1 {
+    display: flex;
+    align-items: center;
+    margin-top: -2vh;
+}
+.detail-item1 img{
+    width:80px;
+}
+.detail-item1 p{
+    margin-top: 2vh;
+}
+
+h2 {
+    font-family: "Your-First-Font", 'Trebuchet MS',  'Lucida Sans', Arial, sans-serif;
+    /* Specify the font you want to use for h1 */
+}
+
+h7 {
+    font-family: "Your-Second-Font", 'Lucida Sans';
+    margin-top: 2vh;
+    /* Specify the font you want to use for h8 */
+}
+.navbar {
+    background-color: #545454;
+    position: sticky;
+    top: 0;
+    padding-left: 4.3%; 
+    width: 100%;
+    z-index: 100;
+    padding-top: 13px;
+    padding-bottom: 13px; 
+  }
+  .navbar-brand img {
+    max-height: 40px;
+    margin-right: 10px;
+  }
+.row{
+    margin-bottom: -0.5vh;
+}
+footer {
+    background-color: #363636;
+    color: white;
+    padding: 30px 0;
+  }
+  footer h4 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+    position: relative;
+    padding-bottom: 12px;
+  }
+  footer h3 {
+    font-size: 18px;
+    margin: 0 0 20px 0;
+    padding: 2px 0 2px 0;
+    line-height: 1;
+    font-weight: 700;
+  }
+  .responsive-map {
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio for widescreen */
+    height: 0;
+  }
+  
+  .responsive-map iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .footer-contact a {
+    color: #e6573f; /* Set the link color to #e6573f */
+    text-decoration: none; /* Remove the default underline */
+    transition: color 0.3s; /* Add a transition for smooth color change */
+  }
+  
+  .footer-contact a:hover {
+    color: #b04330; /* Change the link color to a darker shade on hover */
+  }
+  
+  .social-links img{
+    max-height: 22px;
+    margin-right: 10px;
+  }
+  .social-icon {
+    display: inline-block;
+    margin-right: 10px; /* Add margin as needed */
+  }
+  
+  .circle-background {
+    width: 38px; /* Adjust the size as needed */
+    height: 38px; /* Adjust the size as needed */
+    background-color: #545454;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+  }
+  .circle-background:hover {
+    background-color: #e6573f; /* Change the background color on hover */
+  }
+  .circle-background img {
+    width: 90%; /* Adjust the size of the image within the circle */
+    height: auto;
+    margin-left: 10px;
+    display: block;
+  }
+  @media (max-width: 768px) {
+    .navbar {
+      padding-left: 2%; /* Adjust padding for smaller screens */
+    }
+    .navbar-brand img {
+      max-height: 30px; /* Reduce the logo size for smaller screens */
+    }
+    .container {
+      padding: 25px;
+    }
+    .details {
+        flex-basis: 30%; /* Adjust the width as needed */
+    }
+    .pricing-details {
+        flex-basis: 65%; /* Adjust the width as needed */
+    }
+    .responsive-map iframe {
+        height: 50%;
+    }
+    .footer-maps {
+      margin-bottom: -22vh;
+    }
+    .footer-contact {
+      margin-bottom: 20px;
+    }
+    .footer-info {
+      margin-bottom: 20px;
+    }
+  
+    .footer-contact h4 {
+      font-size: 14px; /* Adjust font size for contact section heading on smaller screens */
+    }
+  
+    .footer-contact p {
+      font-size: 12px; /* Adjust font size for contact section content on smaller screens */
+    }
+  
+    .responsive-map {
+      padding-bottom: 100%; /* Increase the padding for the map on smaller screens */
+    }
+  
+    .circle-background img {
+      width: 70%; /* Adjust the size of the image within the circle for smaller screens */
+    }
+  
+    .Our-cottages h1::after,
+    .Our-rooms h1::after {
+      width: 150px; /* Adjust the width of the line after headings on smaller screens */
+    }
+    #bigpic {
+        margin-bottom: 2vh;
+    }
+    #soundsys {
+      margin-top: -10px; /* Adjust margin for soundsys on smaller screens */
+    }
+    #checkInDate,
+    #checkOutDate,
+    #checkInDate1,
+    #checkOutDate1,
+    #checkInDate2,
+    #checkOutDate2,
+    #quantity,
+    #beddings,
+    #quantity1,
+    #beddings1,
+    #quantity2,
+    #beddings2 {
+        width: 100%;
+        padding: 10px;
+        font-size: 16px;
+        margin-bottom: 10px;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+    }
+    #ticket,
+    #ticket1,
+    #ticket2 {
+        width: 100%;
+        padding: 10px;
+        font-size: 16px;
+        margin-bottom: 10px;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+    }
+    #checkInBtnSingle,
+    #checkInBtnDouble,
+    #checkInBtnTriple {
+        width: 100%;
+        padding: 10px;
+        font-size: 16px;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+    }
+    #checkInDateTime,
+    #checkOutDateTime{
+        width: 100%;
+        padding: 10px;
+        font-size: 16px;
+        margin-bottom: 10px;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+    }
+    #rateSelection1,
+    #rateSelection2,
+    #rateSelection {
+        width: 100%;
+    }
+    #calculateBtn,
+    #calculateBtn1,
+    #calculateBtn2 {
+        margin-bottom: 1vh;
+    }  
+}
